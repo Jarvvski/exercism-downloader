@@ -10,4 +10,4 @@ However, I've included some javascript that you can run in the console of a trac
 
 ## usage (asuming you're in the correct directory):
 
-./downloader <list-file>
+```./downloader <list-file>```
