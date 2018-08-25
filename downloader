@@ -1,0 +1,8 @@
+#!/bin/bash
+
+list="$1"
+track="$(basename $list)"
+
+while read p; do
+  exercism download --exercise="$p" --track="$track"
+done <$list
