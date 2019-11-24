@@ -12,7 +12,6 @@ print("Beginning download...")
 with open("python", "r") as file:
 	file_contents = file.read()
 	exerciseList = file_contents.split()
-	print(exerciseList)
 	
 for exercise in exerciseList:
 	print("Now downloading the '%s' exercise..." % exercise)
